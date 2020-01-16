@@ -6,7 +6,7 @@ namespace MobileComp_CPSC4250.Models
 {
     public enum MenuItemType
     {
-        Browse,
+        Items,
         About
     }
     public class HomeMenuItem
