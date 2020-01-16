@@ -21,6 +21,7 @@ namespace MobileComp_CPSC4250.Views
             menuItems = new List<HomeMenuItem>
             {
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="Game" },
                 new HomeMenuItem {Id = MenuItemType.Items, Title="Items" }
             };
 
