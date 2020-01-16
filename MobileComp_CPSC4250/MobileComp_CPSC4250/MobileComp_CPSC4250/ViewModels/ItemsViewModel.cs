@@ -17,7 +17,7 @@ namespace MobileComp_CPSC4250.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Items";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
